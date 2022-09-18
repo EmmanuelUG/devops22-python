@@ -1,0 +1,7 @@
+
+unique_colors = set(colors)
+        colors_string = ", ".join()
+        print(f'{len(colors)} {colors_string}')
+        print(f'{len(color1)} {", ".join(set(color1t))}')
+        print(f'{len(random_colors)} {", ".join(set(random_colors))}')
+print =(f'{one_hundred} {color2})

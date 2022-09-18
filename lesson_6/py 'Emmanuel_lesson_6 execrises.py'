@@ -1,0 +1,64 @@
+# 1. Generate a list containing the numbers 1, 2, 3 to 100.   
+# 2. Generate a list of all even numbers from 2 to 60
+# 3. Generate a list of all odd numbers from 1 to 77
+# 4. Generate a list of 100 numbers between 1 - 300
+#     1. The numbers must be unique
+#     2. The numbers are selected randomly (not unique)
+# 5. create a list containing five colors (not containing red)
+#    1. Create a new list containing "red" and also add two colors by random with `choice`, `choices` or `sample` from the list.
+#    2. Generate a list of random colors from the list of 3, the list should be of length 50.
+#    3. Print the length of all three lists and the unique colors in each list
+
+# my_list = list(range(1,100))
+# # print(my_list)
+# my_list_of_even = list(range(2,61,2))
+# # print(my_list_of_even)
+# my_list_of_odd = list(range(1,78,2))
+# # print(my_list_of_odd)
+
+# import string
+# from operator import mul
+from random import random, shuffle, choices, sample
+# from typing import Counter
+import random
+
+class_rum = list(range(1,301))
+one_hundred = sample(class_rum, k=100)
+# # print(one_hundred)
+# random_num = random.randint(1,300)
+# print(random_num)
+
+class_rum = list(range(1,301))
+one_hundred = choices(class_rum, k=100)
+print(one_hundred)
+
+# from unittest import result
+
+import random
+from unittest import result
+
+
+from random import sample
+colors = ['Green', 'Black', 'Yellow', 'Orange', 'Pink']
+colors1= ['Red']
+colors1.extend(sample(colors, k=2))
+print(colors1)
+
+result = random.choice(colors)
+# print(result)
+result1 = random.choices(colors, [3,2,0,1,2])
+# print(result1)
+
+
+color2 = ['Green','Yellow','Black'] 
+result = random.choices(color2,k=50)
+# print(result)
+
+unique_colors = set(colors)
+        colors_string = ", ".join()
+        print(f'{len(colors)} {colors_string}')
+        print(f'{len(color1)} {", ".join(set(color1t))}')
+        print(f'{len(random_colors)} {", ".join(set(random_colors))}')
+print =(f'{one_hundred} {color2})
+
+
