@@ -33,7 +33,7 @@ Todays exercises goal is to learn about basic functions.
 
    import string
    def rev_alpha():
-      print(string.ascii_lowercase[::-1])
+      print(string.ascii_lowercase[:-1])
 
    var_1 = hello()
    var_2 = ones()
