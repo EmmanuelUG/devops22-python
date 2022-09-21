@@ -1,0 +1,9 @@
+from email.headerregistry import Address
+
+
+Firstname,Lastname,Birthdate,Address
+Mark,Lars,20/06/2001,Sturegatan
+Frank,Gustav,21/07/2002,Skolgatan
+Martin,Lund,22/08/2003,Parkgatan
+John,Ericson,23/09/2004,Storgatan
+Johan,Nordberg,24/08/2005,Folkgatan
